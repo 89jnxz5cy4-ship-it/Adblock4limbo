@@ -5,14 +5,14 @@
  * Contact: https://t.me/limboprobot
  * Telegram Group: https://t.me/Adblock4limbo
  * FAQ: https://t.me/Adblock4limbo/21
- * Github: https://github.com/limbopro/Adblock4limbo
+ * Github: https://github.com/89jnxz5cy4-ship-it/Adblock4limbo
  */
 
 /**
  * QuantumultX Configuration:
  *
  * [rewrite_local]
- * ^https?:\/\/www\.example\.com(?!(.*(cdn-cgi|(\.(js|css|jpg|jpeg|png|webp|gif|zip|woff|woff2|m3u8|mp4|mov|m4v|avi|mkv|flv|rmvb|wmv|rm|asf|asx|mp3|json|ico|otf|ttf))))).* url script-response-body https://limbopro.com/Adguard/Adblock4limbo.js
+ * ^https?:\/\/www\.example\.com(?!(.*(cdn-cgi|(\.(js|css|jpg|jpeg|png|webp|gif|zip|woff|woff2|m3u8|mp4|mov|m4v|avi|mkv|flv|rmvb|wmv|rm|asf|asx|mp3|json|ico|otf|ttf))))).* url script-response-body https://raw.githubusercontent.com/89jnxz5cy4-ship-it/Adblock4limbo/main/Adguard/Adblock4limbo.js
  *
  * [mitm]
  * hostname = www.example.com
@@ -30,7 +30,7 @@
  * ... (其他注释不变) ...
  */
 
-//const CSS_URL = "https://limbopro.com/CSS/Adblock4limbo.user.css";
+//const CSS_URL = "https://raw.githubusercontent.com/89jnxz5cy4-ship-it/Adblock4limbo/main/CSS/Adblock4limbo.user.css";
 const privacyGate_style = `
 <head>
 <style id="privacy-gate">
@@ -63,16 +63,21 @@ const privacyGate_script = `
 `
 
 
-const JS_URL = "https://limbopro.com/Adguard/Adblock4limbo.user.js";
-const fc_JS_URL = "https://limbopro.com/Adguard/Adblock4limbo.function.js";
-const fd_JS_URL = "https://limbopro.com/Adguard/elementBlocker.user.js";
-const agent_JS_URL = "https://limbopro.com/Adguard/isAgent.js"; // 无实意
-const autoAdDetector_JS_URL = "https://limbopro.com/Adguard/autoAdDetector.js"; // 新增插入 autoAdDetector.js
+const JS_URL = "https://raw.githubusercontent.com/89jnxz5cy4-ship-it/Adblock4limbo/main/Adguard/Adblock4limbo.user.js";
+const fc_JS_URL = "https://raw.githubusercontent.com/89jnxz5cy4-ship-it/Adblock4limbo/main/Adguard/Adblock4limbo.function.js";
+const fd_JS_URL = "https://raw.githubusercontent.com/89jnxz5cy4-ship-it/Adblock4limbo/main/Adguard/elementBlocker.user.js";
+const agent_JS_URL = "https://raw.githubusercontent.com/89jnxz5cy4-ship-it/Adblock4limbo/main/Adguard/isAgent.js"; // 无实意
+const autoAdDetector_JS_URL = "https://raw.githubusercontent.com/89jnxz5cy4-ship-it/Adblock4limbo/main/Adguard/autoAdDetector.js"; // 新增插入 autoAdDetector.js
 
 // 基础注入内容
 // const TITLE_INJECTION_BASE = `<link rel="stylesheet" href="${CSS_URL}" type="text/css" />
 // 不再默认加载全局 Adgurad基础过滤器（CSS） 如需去导航-工具箱开启
+const NO_FLOATING_STYLE = `<style id="a4l-no-floating">
+#dh_button, #dh_buttonMain, #dh_pageContainer, #floating-output-container {display: none !important; visibility: hidden !important;}
+</style>`;
+
 const TITLE_INJECTION_BASE = `
+${NO_FLOATING_STYLE}
 <script type="text/javascript" defer src="${autoAdDetector_JS_URL}"></script>
 <script type="text/javascript" defer src="${JS_URL}"></script>
 <script type="text/javascript" defer src="${fc_JS_URL}"></script>
@@ -83,6 +88,7 @@ const TITLE_INJECTION_BASE = `
 // const BODY_INJECTION_BASE = `<link rel="stylesheet" href="${CSS_URL}" type="text/css" />
 // 不再默认加载全局 Adgurad基础过滤器（CSS） 如需去导航-工具箱开启
 const BODY_INJECTION_BASE = `
+${NO_FLOATING_STYLE}
 <script type="text/javascript" defer src="${autoAdDetector_JS_URL}"></script>
 <script type="text/javascript" defer src="${JS_URL}">
 <script type="text/javascript" defer src="${fc_JS_URL}"></script>
@@ -201,9 +207,9 @@ function main() {
 
         // 检查域名是否有效（包含 .）
         if (domain && domain.includes('.')) {
-            const domainCSS_URL = `https://limbopro.com/CSS/${domain}.css`;
+            const domainCSS_URL = `https://raw.githubusercontent.com/89jnxz5cy4-ship-it/Adblock4limbo/main/CSS/${domain}.css`;
             domainCSS_Injection = `<link rel="stylesheet" href="${domainCSS_URL}" type="text/css" />\n`;
-            const domainCSS_URLbyHand = `https://limbopro.com/CSS/limbopro.${domain}.css`;
+            const domainCSS_URLbyHand = `https://raw.githubusercontent.com/89jnxz5cy4-ship-it/Adblock4limbo/main/CSS/limbopro.${domain}.css`;
             domainCSS_Injection_byHand = `<link rel="stylesheet" href="${domainCSS_URLbyHand}" type="text/css" />\n`;
             console.log(`[Adblock4limbo] Injecting domain-specific CSS: ${domainCSS_URL}`);
         } else if (hostname) {

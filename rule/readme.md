@@ -27,8 +27,8 @@ QuantumultX/Shadowrocket/Surge 用户可以按需添加分流规则：
 
 **如何获取正确的 list 链接**？参阅 [获取 Github raw 资源链接小Tips](https://limbopro.com/archives/27377.html)；
 
-QuantumultX：https://github.com/limbopro/Adblock4limbo/tree/main/rule/QuantumultX
+QuantumultX：https://github.com/89jnxz5cy4-ship-it/Adblock4limbo/tree/main/rule/QuantumultX
 
-Shadowrocket：https://github.com/limbopro/Adblock4limbo/tree/main/rule/Shadowrocket
+Shadowrocket：https://github.com/89jnxz5cy4-ship-it/Adblock4limbo/tree/main/rule/Shadowrocket
 
-Surge：https://github.com/limbopro/Adblock4limbo/tree/main/rule/Surge
+Surge：https://github.com/89jnxz5cy4-ship-it/Adblock4limbo/tree/main/rule/Surge

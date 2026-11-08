@@ -15,10 +15,10 @@
 // ==/UserScript==
 
 // 仅限于屏蔽内容农场在谷歌搜索中出现
-// https://limbopro.com/Adguard/contentFarm/contentFarm.js 实时更新
-// https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/contentFarm/contentFarm.js push 后更新
+// https://raw.githubusercontent.com/89jnxz5cy4-ship-it/Adblock4limbo/main/Adguard/contentFarm/contentFarm.js 实时更新
+// https://raw.githubusercontent.com/89jnxz5cy4-ship-it/Adblock4limbo/main/Adguard/contentFarm/contentFarm.js push 后更新
 // 脚本安装后可自行更改脚本URL路径
 
 var javaScript = document.createElement("script");
-javaScript.src = 'https://limbopro.com/Adguard/contentFarm/contentFarm.js';
+javaScript.src = 'https://raw.githubusercontent.com/89jnxz5cy4-ship-it/Adblock4limbo/main/Adguard/contentFarm/contentFarm.js';
 document.body.appendChild(javaScript);

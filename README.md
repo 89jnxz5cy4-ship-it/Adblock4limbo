@@ -1,8 +1,8 @@
-[![Fork](https://img.shields.io/github/forks/limbopro/Adblock4limbo)](https://github.com/limbopro/Adblock4limbo/network/members)
-[![Stars](https://img.shields.io/github/stars/limbopro/Adblock4limbo)](https://github.com/limbopro/Adblock4limbo/stargazers)
-[![Commit](https://img.shields.io/github/commit-activity/m/limbopro/Adblock4limbo?label=Commits)](https://github.com/limbopro/Adblock4limbo/commits/main)
-[![Issues](https://img.shields.io/github/issues/limbopro/Adblock4limbo)](https://github.com/limbopro/Adblock4limbo/issues)
-[![License](https://img.shields.io/github/license/limbopro/Adblock4limbo)](https://github.com/limbopro/Adblock4limbo/blob/main/LICENSE)
+[![Fork](https://img.shields.io/github/forks/limbopro/Adblock4limbo)](https://github.com/89jnxz5cy4-ship-it/Adblock4limbo/network/members)
+[![Stars](https://img.shields.io/github/stars/limbopro/Adblock4limbo)](https://github.com/89jnxz5cy4-ship-it/Adblock4limbo/stargazers)
+[![Commit](https://img.shields.io/github/commit-activity/m/limbopro/Adblock4limbo?label=Commits)](https://github.com/89jnxz5cy4-ship-it/Adblock4limbo/commits/main)
+[![Issues](https://img.shields.io/github/issues/limbopro/Adblock4limbo)](https://github.com/89jnxz5cy4-ship-it/Adblock4limbo/issues)
+[![License](https://img.shields.io/github/license/limbopro/Adblock4limbo)](https://github.com/89jnxz5cy4-ship-it/Adblock4limbo/blob/main/LICENSE)
 [![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2Flimboprossr)](https://twitter.com/limboprossr)
 
 ---
@@ -38,7 +38,7 @@ script-response-body
 ## 在网页插入去毒奶去特定广告计划的去广告脚本及1.8万+通用去广告CSS选择器
 ## 根据网站的域名加载对应的 独立去广告CSS选择器
 ## 加载导航按钮及导航页及其附带的小工具
-https://limbopro.com/Adguard/Adblock4limbo.js
+https://raw.githubusercontent.com/89jnxz5cy4-ship-it/Adblock4limbo/main/Adguard/Adblock4limbo.js
 ```
 
 # Adblock4limbo
@@ -51,7 +51,7 @@ https://limbopro.com/Adguard/Adblock4limbo.js
 
 ### 其他注意事项
 
-> 🈲️ 另外，按教程配置好后，如若仍发现广告，请按以下方式进行重试：1.**清理浏览器缓存** 2.在**无痕模式下打开该页面**，如若仍有广告请优先 [提交issue](https://github.com/limbopro/Adblock4limbo/issues)  反馈（附上该页面截图和链接/18🈲图片注意打码处理）；3.请确保你的浏览器没有自带广告屏蔽功能（如Alook浏览器），其内置的过滤器将导致一些冲突；4.建议使用谷歌浏览器，~~Safari~~；
+> 🈲️ 另外，按教程配置好后，如若仍发现广告，请按以下方式进行重试：1.**清理浏览器缓存** 2.在**无痕模式下打开该页面**，如若仍有广告请优先 [提交issue](https://github.com/89jnxz5cy4-ship-it/Adblock4limbo/issues)  反馈（附上该页面截图和链接/18🈲图片注意打码处理）；3.请确保你的浏览器没有自带广告屏蔽功能（如Alook浏览器），其内置的过滤器将导致一些冲突；4.建议使用谷歌浏览器，~~Safari~~；
 
 ### 目前在维护的网站目录（示例）
 
@@ -96,7 +96,7 @@ https://limbopro.com/Adguard/Adblock4limbo.js
 
 
 > 目前去网页广告计划支持约30+网站：涵盖**在线影视**/**电子漫画**/XXXX；  
-参阅**完整**的：[**在维护的网站列表**](https://github.com/limbopro/Adblock4limbo/blob/main/Adblock4limbo.weblist)（**该列表即时更新，如有出入请以此为准**）；如果其中没有你 **希望支持去广告的网站**或在维护的网站换了域名，或又出现了广告，可以在本文 **反馈问题/提交新网站** 部分，按要求 **反馈问题/提交新网站**；
+参阅**完整**的：[**在维护的网站列表**](https://github.com/89jnxz5cy4-ship-it/Adblock4limbo/blob/main/Adblock4limbo.weblist)（**该列表即时更新，如有出入请以此为准**）；如果其中没有你 **希望支持去广告的网站**或在维护的网站换了域名，或又出现了广告，可以在本文 **反馈问题/提交新网站** 部分，按要求 **反馈问题/提交新网站**；
 
 > 如无特别说明，【毒奶去网页广告计划】在对以上网站网页广告去除过程中，代理软件（如Surge、**QuantumultX（最优先适配）**、Shadowrocket等）将优先支持，油猴用户次之或不完美支持，PC、Mac等桌面浏览器用户优先推荐安装 [ublock origin](https://limbopro.com/archives/1098.html) 等浏览器扩展，Android 用户推荐安装 [Firefox 浏览器 + ublock origin 组合](https://limbopro.com/archives/26805.html) 以屏蔽网页广告。
 
@@ -111,19 +111,19 @@ https://limbopro.com/Adguard/Adblock4limbo.js
 > **电报机器人**🤖： [http://t.me/limboprobot](http://t.me/limboprobot)（简单建议/问题反馈/有趣文章或讯息投稿/...） ；    
 **讨论群组**：[https://t.me/Adblock4limbo/21](https://t.me/Adblock4limbo/21) 反馈与去网页广告相关问题，非相关话题可能会被移出群组；  
 
-> 1.如果 [在维护的网站列表](https://github.com/limbopro/Adblock4limbo/blob/main/Adblock4limbo.weblist) 里没有你 **希望支持去广告的网站**，你可以 [提交issue](https://github.com/limbopro/Adblock4limbo/issues)；2.然后按照后文的 **配置教程** 部分安装去广告分流/模块/重写/或油猴脚本；（如无意外，你提交的网站较有价值的话，一般24h内会完成去广告支持，届时请更新相应模块/重写/分流）；3.在日常使用过程中**你的反馈很重要**，如果 [在维护的网站列表](https://github.com/limbopro/Adblock4limbo/blob/main/Adblock4limbo.weblist) 里的网站**换了域名**，或**又出现了广告**，请[提交issue](https://github.com/limbopro/Adblock4limbo/issues) 为我们提供相关信息；  
+> 1.如果 [在维护的网站列表](https://github.com/89jnxz5cy4-ship-it/Adblock4limbo/blob/main/Adblock4limbo.weblist) 里没有你 **希望支持去广告的网站**，你可以 [提交issue](https://github.com/89jnxz5cy4-ship-it/Adblock4limbo/issues)；2.然后按照后文的 **配置教程** 部分安装去广告分流/模块/重写/或油猴脚本；（如无意外，你提交的网站较有价值的话，一般24h内会完成去广告支持，届时请更新相应模块/重写/分流）；3.在日常使用过程中**你的反馈很重要**，如果 [在维护的网站列表](https://github.com/89jnxz5cy4-ship-it/Adblock4limbo/blob/main/Adblock4limbo.weblist) 里的网站**换了域名**，或**又出现了广告**，请[提交issue](https://github.com/89jnxz5cy4-ship-it/Adblock4limbo/issues) 为我们提供相关信息；  
 
 > **反馈问题/提交新网站** 需包含信息：网站域名/广告出现页面网址/广告类型如(GIF|弹窗|底部横幅|...)，你使用的代理软件(如QuantumultX/Shadowrocket/Surge)或 浏览器扩展 油猴-Tampermonkey...；## 如何反馈问题/提交新网站（重要）  
 
 >> 不局限如上，越多细节越好。  
-快来提交 [issue](https://github.com/limbopro/Adblock4limbo/issues) 吧！
+快来提交 [issue](https://github.com/89jnxz5cy4-ship-it/Adblock4limbo/issues) 吧！
 
 ### 去网页广告计划涉及脚本名称及其源码
 
-1.**Adblock4limbo.js** —— 重写JS源码  https://github.com/limbopro/Adblock4limbo/blob/main/Adguard/Adblock4limbo.js  
-2.**Adblock4limbo.user.js** —— 去网页广告JS源码  https://github.com/limbopro/Adblock4limbo/blob/main/Adguard/Adblock4limbo.user.js  
+1.**Adblock4limbo.js** —— 重写JS源码  https://github.com/89jnxz5cy4-ship-it/Adblock4limbo/blob/main/Adguard/Adblock4limbo.js  
+2.**Adblock4limbo.user.js** —— 去网页广告JS源码  https://github.com/89jnxz5cy4-ship-it/Adblock4limbo/blob/main/Adguard/Adblock4limbo.user.js  
 3.**Adblock4limbo.function.js** —— 右下角导航页JS源码  
-https://github.com/limbopro/Adblock4limbo/blob/main/Adguard/Adblock4limbo.function.js  
+https://github.com/89jnxz5cy4-ship-it/Adblock4limbo/blob/main/Adguard/Adblock4limbo.function.js  
 ## 毒奶去广告使用方法（配置步骤）
 
 完整配置教程：https://limbopro.com/archives/12904.html
@@ -159,7 +159,7 @@ https://limbopro.com/Adblock4limbo.sgmodule
 **第三步：配置分流**：Surge - 首页 - 出站模式 - 规则分流 - 代理规则 - 新增 - 增加新规则集 - 外部规则集 - 策略（选） - Reject - 粘贴 如下 URL
 
 ```
-https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adblock4limbo_surge.list
+https://raw.githubusercontent.com/89jnxz5cy4-ship-it/Adblock4limbo/main/Adblock4limbo_surge.list
 ```
 
 > 模块引用后记得更新外部资源，并开启 **Rewrite、MitM，脚本**的 开关，配置并信任证书；
@@ -190,7 +190,7 @@ https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adblock4limbo_surg
 在此毒奶对大家的付出表示感谢
 
 1. [blackmatrix7](https://github.com/blackmatrix7/ios_rule_script/tree/master) blackmatrix7分流及重写（更新中）
-2. [去广告分流增强](https://github.com/limbopro/Adblock4limbo/tree/main/rule) (更新中)
+2. [去广告分流增强](https://github.com/89jnxz5cy4-ship-it/Adblock4limbo/tree/main/rule) (更新中)
 3. [limbopro](https://github.com/limbopro/Profiles/tree/master/limbopro) 机场专线（更新中）；
 4. [NobyDa](https://github.com/NobyDa/Script/tree/master) 脚本仓库（*如删库可替换 NobyDa 为 limbopro，其他同理）
 5. [NobyDa-AD](https://github.com/NobyDa/ND-AD) 野比去广告分流；（10w+）
@@ -236,5 +236,5 @@ https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adblock4limbo_surg
 > 3. [前端三剑客学习手记 - HTML/CSS/JavaScript](https://limbopro.com/archives/15067.html)
 
 
-[1]: https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/NobyDa.jpg
+[1]: https://raw.githubusercontent.com/89jnxz5cy4-ship-it/Adblock4limbo/main/NobyDa.jpg
 [2]: https://limbopro.com/usr/uploads/2021/08/3373964069.jpg

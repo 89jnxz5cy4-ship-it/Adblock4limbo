@@ -17,15 +17,15 @@
 // ==/UserScript==
  
 /* 源码地址
-// https://limbopro.com/Adguard/contentFarm/contentFarm.js 每日更新；供 Quantumult X / Surge 等代理软件调用；
-// https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/contentFarm/contentFarm.js push 后更新至GitHub 方便查看历史更新内容
+// https://raw.githubusercontent.com/89jnxz5cy4-ship-it/Adblock4limbo/main/Adguard/contentFarm/contentFarm.js 每日更新；供 Quantumult X / Surge 等代理软件调用；
+// https://raw.githubusercontent.com/89jnxz5cy4-ship-it/Adblock4limbo/main/Adguard/contentFarm/contentFarm.js push 后更新至GitHub 方便查看历史更新内容
 */
 
 /*
 Written by limbopro
 iOS 屏蔽内容农场：https://limbopro.com/archives/block-contentfarm.html
 群组：https://t.me/Adblock4limbo
-完整项目：https://github.com/limbopro/Adblock4limbo
+完整项目：https://github.com/89jnxz5cy4-ship-it/Adblock4limbo
 There are 7179 content farm domains in total until now.
 Last updated at  3/11月/2026/10:03
 */

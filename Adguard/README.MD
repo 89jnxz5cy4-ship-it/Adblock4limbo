@@ -1,6 +1,6 @@
 仅做示例使用，不保证日后更新；
 
-完整应用请参阅：https://github.com/limbopro/Adblock4limbo
+完整应用请参阅：https://github.com/89jnxz5cy4-ship-it/Adblock4limbo
 
 ## 如何提取 Adguard 的JavaScript文件
 Adguard For Mac/Windows 用户往下看，且以 https://www.nfmovies.com/ 举例；
@@ -35,8 +35,8 @@ Adguard For Mac/Windows 用户往下看，且以 https://www.nfmovies.com/ 举�
 3.分别打开两个URL，并复制其内容，依次命名为 `nfmovies.js` 和 `user-script.js`；
 
 ```
-raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/nfmovies.js
-raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/user-script.js
+raw.githubusercontent.com/89jnxz5cy4-ship-it/Adblock4limbo/main/main/Adguard/nfmovies.js
+raw.githubusercontent.com/89jnxz5cy4-ship-it/Adblock4limbo/main/main/Adguard/user-script.js
 ```
 
 ## 制作QuantumultX Adguard.conf 文件（重写引用）
@@ -45,14 +45,14 @@ raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/user-script.js
 hostname = www.nfmovies.com
 
 #www.nfmovies.com adsblock
-^https:?/\/www.nfmovies.com.* url response-body <head> response-body <head><script type="text/javascript" nonce="7575a050f63648a69e15f9694a7" src="//raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/nfmovies.js"></script><script type="text/javascript" nonce="7575a050f63648a69e15f9694a7" src="//raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/user-script.js"></script>
+^https:?/\/www.nfmovies.com.* url response-body <head> response-body <head><script type="text/javascript" nonce="7575a050f63648a69e15f9694a7" src="//raw.githubusercontent.com/89jnxz5cy4-ship-it/Adblock4limbo/main/main/Adguard/nfmovies.js"></script><script type="text/javascript" nonce="7575a050f63648a69e15f9694a7" src="//raw.githubusercontent.com/89jnxz5cy4-ship-it/Adblock4limbo/main/main/Adguard/user-script.js"></script>
 ```
 
 ## 引用Adguard.conf
 
 1.打开 Quantumult X  - 点击右下角三菱按钮 - 找到 重写 - 点击 引用 ，粘贴以下 URL；
 
-https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/Adguard.conf
+https://raw.githubusercontent.com/89jnxz5cy4-ship-it/Adblock4limbo/main/Adguard/Adguard.conf
 
 2.开启重写按钮/MITM按钮，配置下证书，食用；
 

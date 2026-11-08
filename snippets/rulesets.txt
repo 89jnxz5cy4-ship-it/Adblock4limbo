@@ -1,8 +1,8 @@
 ☠️ AdobeCrack,https://raw.githubusercontent.com/limbopro/Profiles4limbo/main/adobecc.list
-🛑 广告拦截,https://raw.githubusercontent.com/limbopro/Adblock4limbo/refs/heads/main/rule/Surge/Adblock4limbo_surge.list
+🛑 广告拦截,https://raw.githubusercontent.com/89jnxz5cy4-ship-it/Adblock4limbo/refs/heads/main/rule/Surge/Adblock4limbo_surge.list
 🛑 广告拦截,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AdvertisingLite/AdvertisingLite.list
-🛑 广告拦截,https://raw.githubusercontent.com/limbopro/Adblock4limbo/refs/heads/main/rule/Surge/easylistchina_surge.list
-🛑 广告拦截,https://raw.githubusercontent.com/limbopro/Adblock4limbo/refs/heads/main/rule/Surge/easylist_surge.list
+🛑 广告拦截,https://raw.githubusercontent.com/89jnxz5cy4-ship-it/Adblock4limbo/refs/heads/main/rule/Surge/easylistchina_surge.list
+🛑 广告拦截,https://raw.githubusercontent.com/89jnxz5cy4-ship-it/Adblock4limbo/refs/heads/main/rule/Surge/easylist_surge.list
 ✈️ 机场专线,https://raw.githubusercontent.com/limbopro/Profiles4limbo/main/airports.list
 🇯🇵 DMM,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/DMM/DMM.list
 🇳 Netflix,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Netflix/Netflix.list

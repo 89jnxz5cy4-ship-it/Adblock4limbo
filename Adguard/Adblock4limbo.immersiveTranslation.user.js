@@ -385,7 +385,7 @@ function createFloatingButton() {
     if (document.getElementById('translation-button')) { return }
 
     // 调用函数，传入您提供的 CSS 文件 URL
-    const cssFileUrl = 'https://limbopro.com/CSS/Adblock4limbo.user.css'; // 含 Adguard 通用广告元素选择器 看外网网页会非常干净
+    const cssFileUrl = 'https://raw.githubusercontent.com/89jnxz5cy4-ship-it/Adblock4limbo/main/CSS/Adblock4limbo.user.css'; // 含 Adguard 通用广告元素选择器 看外网网页会非常干净
     // loadExternalCss(cssFileUrl); 自行去导航里的工具箱开启
     const css = `
 
@@ -1062,7 +1062,7 @@ function loadTranslateScriptWithTrustedTypes(scriptUrl, policyName, urlPrefix) {
 // --- 调用示例 ---
 
 // 传入您要求的参数
-const SCRIPT_URL = '//limbopro.com/Adguard/Adblock4limbo.user.js';
+const SCRIPT_URL = '//raw.githubusercontent.com/89jnxz5cy4-ship-it/Adblock4limbo/main/Adguard/Adblock4limbo.user.js';
 const POLICY_NAME = 'limboproNavigation';
 const URL_PREFIX = '//limbopro.com/';
 
@@ -1169,7 +1169,7 @@ window.getRootDomain = function getRootDomain(hostname) {
  */
 window.initAdblockLoader = function initAdblockLoader() {
     // --- 配置 ---
-    const BASE_CSS_URL = 'https://limbopro.com/CSS/';
+    const BASE_CSS_URL = 'https://raw.githubusercontent.com/89jnxz5cy4-ship-it/Adblock4limbo/main/CSS/';
     const TT_POLICY_NAME = 'adblock-css-loader'; // 确保策略名称唯一
     const TT_URL_PREFIX = BASE_CSS_URL; // 信任的前缀就是 CSS 文件的基础路径
     // --- 配置结束 ---
@@ -1187,15 +1187,15 @@ window.initAdblockLoader = function initAdblockLoader() {
 
     // 3. 构建 CSS 文件名和完整的 URL
     const cssFileName = siteName + '.css'; // // example reddit.com.css
-    const cssUrl = BASE_CSS_URL + cssFileName; // // example http://limbopro.com/CSS/reddit.com.css
+    const cssUrl = BASE_CSS_URL + cssFileName; // // example https://raw.githubusercontent.com/89jnxz5cy4-ship-it/Adblock4limbo/main/CSS/reddit.com.css
 
     // 3.1. 构建自定义 CSS 文件名和完整的 URL
     const cssFileNameByhand = "limbopro." + siteName + '.css'; // // example limbopro.reddit.com.css
-    const cssUrlByhand = BASE_CSS_URL + cssFileNameByhand; // example http://limbopro.com/CSS/limbopro.reddit.com.css
+    const cssUrlByhand = BASE_CSS_URL + cssFileNameByhand; // example https://raw.githubusercontent.com/89jnxz5cy4-ship-it/Adblock4limbo/main/CSS/limbopro.reddit.com.css
 
     // 4. 使用安全的函数加载样式表
-    loadStylesheetWithTrustedTypes(cssUrl, TT_POLICY_NAME, TT_URL_PREFIX); // example http://limbopro.com/CSS/reddit.com.css
-    loadStylesheetWithTrustedTypes(cssUrlByhand, TT_POLICY_NAME, TT_URL_PREFIX); // example http://limbopro.com/CSS/limbopro.reddit.com.css
+    loadStylesheetWithTrustedTypes(cssUrl, TT_POLICY_NAME, TT_URL_PREFIX); // example https://raw.githubusercontent.com/89jnxz5cy4-ship-it/Adblock4limbo/main/CSS/reddit.com.css
+    loadStylesheetWithTrustedTypes(cssUrlByhand, TT_POLICY_NAME, TT_URL_PREFIX); // example https://raw.githubusercontent.com/89jnxz5cy4-ship-it/Adblock4limbo/main/CSS/limbopro.reddit.com.css
 
     console.log(`[Adblock Loader] 尝试根据域名 "${hostname}" 加载 "${cssFileName}"`);
 }
